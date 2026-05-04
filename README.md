@@ -194,7 +194,9 @@ Each detected corner is stored as a dict:
 | `detected_by` | str | `'curvature'` or `'steering'` (steering-fallback corners only) |
 
 
-Note: Due to the noise and the public data-availilbity, there are some issues with the corner identifitcation. For example, certain tracks have fairly complex corners, that when looking at the track map, it makes sense that we identify 2 corners seperate from eachother, but in this instance, we are using telemetry, so instead of mapping the track, we are more or less mapping the racing line, which causes some corners to be missed. Suzuka turn 1-2 for example:
+
+
+*Note: Due to the noise and the limited public data-availilbity, there are some issues with the corner identifitcation. For example, certain tracks have fairly complex corners, that when looking at the track map, it makes sense that we identify 2 corners seperate from eachother, but in this instance, we are using telemetry, so instead of mapping the track, we are more or less mapping the racing line, which causes some corners to be missed. Suzuka turn 1-2 for example:*
 
 <img width="750" height="400" alt="image" src="Assets/Suzuka_Comparison.png" />
 
