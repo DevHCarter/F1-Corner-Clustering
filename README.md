@@ -1,6 +1,6 @@
 # F1 Corner Detection and Clustering
 
-Detects all corners across the 2024 F1 calendar, and extracts telemetry characteristics using FastF1, then taking the telemetry and clustering all 335 corners based on the telemetry characteristics.
+Detects all corners across the 2024 F1 calendar, and extracts telemetry characteristics using FastF1, then taking the telemetry and clustering all identified corners based on the telemetry characteristics.
 
 ---
 `>>>` DevHCarter
