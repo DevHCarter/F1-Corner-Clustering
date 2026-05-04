@@ -84,7 +84,7 @@ PCA (7D -> 3D) -> interactive Plotly 3D scatter
 
 ## Step 1: Data Acquisition
 
-FastF1 is a public dataset that tracks tons of F1 related data. All of the data that we took from the dataset was telemetry (speed, gear, throttle%, brake%, etc.)
+(FastF1)[https://github.com/theOehrly/Fast-F1] is a public dataset that tracks tons of F1 related data.
 
 Variables after loading:
 
@@ -192,6 +192,11 @@ Each detected corner is stored as a dict:
 | `direction` | str | `'L'` or `'R'`, from the sign of `kappa_signed` |
 | `peak_kappa` | float | Absolute curvature at the apex index |
 | `detected_by` | str | `'curvature'` or `'steering'` (steering-fallback corners only) |
+
+
+Note: Due to the noise and the public data-availilbity, there are some issues with the corner identifitcation. For example, certain tracks have fairly complex corners, that when looking at the track map, it makes sense that we identify 2 corners seperate from eachother, but in this instance, we are using telemetry, so instead of mapping the track, we are more or less mapping the racing line, which causes some corners to be missed. Suzuka turn 1-2 for example:
+
+<img width="750" height="400" alt="image" src="Assets/Suzuka_Comparison.png" />
 
 ---
 
