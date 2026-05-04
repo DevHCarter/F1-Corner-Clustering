@@ -34,7 +34,6 @@ Both notebooks load data from `cashe/f1_casche` (on first run, pulling all the d
 ├── corner_utils.py                        # core library: curvature, detection, feature extraction
 ├── f1_corner_identification.ipynb         # corner detection + circuit map visualizations
 ├── corner_clustering.ipynb                # k-means clustering + 3D / radar / composition charts
-├── elbow_plot.png                         # choosing 
 ├── Assets
 │   └── Savitzky_golay_local_regression_wl045_pd04.gif
 ├── cache
