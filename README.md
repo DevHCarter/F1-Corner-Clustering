@@ -424,7 +424,8 @@ The same 24-circuit grid as the direction grid, but with each corner apex colore
 
 ### Interactive 3D Scatter (`Visualizations/corner_clusters_3d.html`)
 
-Every corner plotted in the 3D PCA space, colored by cluster. Hovering over a point shows the circuit name, corner number, and key raw feature values. Rotate the cube to explore the cluster structure.
+Every corner plotted in the 3D PCA space, colored by cluster. Hovering over a point shows the circuit name, corner number, and key raw feature values. Rotate the cube to explore the cluster structure. Here is a quick preview, this data is using k = 6 and is from the 2024 season:
+<img width="750" height="400" alt="image" src="Assets/3D_interactive_map_example.gif" />
 
 ### Radar Chart (`Visualizations/cluster_radar.html`)
 
